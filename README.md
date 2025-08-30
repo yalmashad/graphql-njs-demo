@@ -40,7 +40,7 @@ Valid queries pass through to the backend.
 Queries exceeding the maximum depth are blocked by NJS.
 
 ## Configuration
-Maximum query depth is defined in nginx/graphql_depth.js:
+Maximum query depth is defined in `nginx/graphql_depth.js`:
 ```bash
 const MAX_DEPTH = 5;
 ```
