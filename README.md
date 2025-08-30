@@ -6,9 +6,8 @@ This repository demonstrates a **GraphQL backend** with **NGINX + NJS** enforcin
 
 - NGINX with **NJS module** for GraphQL depth checking.
 - Node.js backend with **Apollo Server**.
-- Dockerized setup for easy testing on Mac, Linux, or Windows.
+- Dockerized setup for easy testing.
 - Configurable maximum query depth (default 5).
-
 
 ## Quick Start
 
@@ -40,5 +39,8 @@ curl -X POST http://localhost/graphql \
 Valid queries pass through to the backend.
 Queries exceeding the maximum depth are blocked by NJS.
 
-# Configuration
+## Configuration
 Maximum query depth is defined in nginx/graphql_depth.js:
+```bash
+const MAX_DEPTH = 5;
+```
