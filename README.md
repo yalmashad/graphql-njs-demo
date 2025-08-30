@@ -16,7 +16,8 @@ This repository demonstrates a **GraphQL backend** with **NGINX + NJS** enforcin
 
 ```bash
 git clone https://github.com/yalmashad/graphql-njs-demo
-cd graphql-njs-demo```
+cd graphql-njs-demo
+```
 
 2. Build and start containers:
 ```docker-compose up --build```
