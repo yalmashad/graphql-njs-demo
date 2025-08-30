@@ -6,7 +6,6 @@ This repository demonstrates a **GraphQL backend** with **NGINX + NJS** enforcin
 
 - NGINX with **NJS module** for GraphQL depth checking.
 - Node.js backend with **Apollo Server**.
-- Dockerized setup for easy testing.
 - Configurable maximum query depth (default 5).
 
 ## Quick Start
