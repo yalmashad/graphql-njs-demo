@@ -20,5 +20,7 @@ cd graphql-njs-demo
 ```
 
 2. Build and start containers:
-```docker-compose up --build```
+```bash
+docker-compose up --build
+```
 
